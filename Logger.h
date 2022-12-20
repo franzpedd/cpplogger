@@ -35,7 +35,7 @@ public:
 public:
 
 	// outputs a message to os's terminal
-	static void inline ToTerminal(Severity severity, const char* file, int line, const char* msg, ...);
+	static void ToTerminal(Severity severity, const char* file, int line, const char* msg, ...);
 
 	// outputs a message to a file
 	static void ToFile(Severity severity, const char* path, const char* file, int line, const char* msg, ...);
