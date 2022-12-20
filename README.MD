@@ -1,6 +1,6 @@
 # Simple C++ Logger
-This is a simple logger, it can log to a terminal or to a file.
-If macro-version is used it will log the current date and time.
+This is a simple logger written in C++11 and it can log to a terminal or to a file.
+* If macro-version is used it will log the current date and time.
 * LOG_TO_FILE doesnt log anything to terminal and vice-versa.
 * Logger() << is mean to work like qDebug() does.
 
